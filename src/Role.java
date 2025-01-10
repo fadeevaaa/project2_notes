@@ -1,5 +1,5 @@
-public enum Roles {
+public enum Role {
     ADMIN,
     MODERATOR,
-    USER;
+    USER
 }

@@ -1,4 +1,3 @@
-package PACKAGE_NAME;
-
-public interface Correctable {
+public interface Correctable{
+    void correct(String currentWord, String newWord);
 }

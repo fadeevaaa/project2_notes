@@ -1,7 +1,5 @@
-package PACKAGE_NAME;
-
-public class PermissionExeption extends RuntimeException {
-  public PermissionExeption(String message) {
-    super(message);
-  }
+public class PermissionExeption extends Exception {
+    public PermissionExeption() {
+        super("Недостаточно прав.");
+    }
 }
